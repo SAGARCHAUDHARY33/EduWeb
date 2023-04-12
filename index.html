@@ -4,10 +4,245 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EduWeb</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body>
-    <h1>SAGAR</h1>
-    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia cupiditate provident laboriosam! Maiores, iure dolore quas eligendi perferendis, inventore fuga pariatur nostrum ut fugiat accusantium possimus perspiciatis fugit itaque!</P>
+<body>   
+  </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+        <div class="container-fluid  justify-content-between" >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a  href="#">
+            <img src="./assest/logo.svg"/>
+          </a>
+          <div class="collapse navbar-collapse d-flex" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link "href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Course</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <div class="spinner-grow text-info" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <input class="form-control me-sm-0 " type="search" placeholder="" aria-label="Search">
+              <input class="btn btn-outline-primary" type="submit" value="search">
+            </form>
+          </div>
+          </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assest/sagar.jpg" class="d-block w-100 " height="510 px"  alt="collaboration">
+            <div class="carousel-caption d-none d-md-block text-info">
+              <h5  ><strong>Well Manage Class Room</strong></h5>
+              <p class="text-primary">A well-managed classroom is one where the students are aware of the teacher's boundaries and rules, and they respect such rules. There are normative guidelines for the class which guarantee the students'firm discipline.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assest/sagar1.jpg" class="d-block w-100" height="510 px" alt="library">
+            <div class="carousel-caption d-none d-md-block text-warning ">
+              <h5><strong>Quality Collaboration</strong></h5>
+              <p class="text-primary
+              " >Structured methods of collaboration encourage introspection of behavior and communication.[2] Such methods aim to increase the success of teams as they engage in collaborative problem-solving. </p>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <img src="./assest/sagar3.jpg" class="d-block w-100" height="510 px" alt="learn">
+            <div class="carousel-caption d-none d-md-block text-primary">
+              <h5> <strong >Luxurious Library</strong></h5>
+              <p class=" lh-1 text-danger ">Libraries are some of the most complete and incredible tributes to human knowledge imaginable, and with their range of resources, they're invaluable when it comes to studying. </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container-fluid bg-light text-center text-danger mt-3 pb-3">
+        <h3 >CATEGORIES</h3>
+        <p style=" color: blue;">Online Classes For Remote Learning.
+        Consectetur adipiscing elit sed do eiusmod tempor.</p>
+      </div>
+      <div class="container d-flex  justify-content-center mt-3"  >
+      <div class="card" style="width: 18rem; margin-inline: 10px;">
+        <img src="./assest/category-1.svg" class="card-img-top" height="55px" width="45px">
+        <div class="card-body">
+          <h5 class="card-title">Online Degree Programs</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, dignissimos voluptate rerum nam error dolor?</p>
+          <a href="#" class="btn btn-primary ">7 Courses</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;  margin-inline: 10px;">
+        <img src="./assest/category-2.svg" class="card-img-top" height="55px" width="45px">
+        <div class="card-body">
+          <h5 class="card-title">Non-Degree Program</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, dignissimos voluptate rerum nam error dolor?</p>
+          <a href="#" class="btn btn-primary ">9 Courses</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;  margin-inline: 10px;">
+        <img src="./assest/category-3.svg" class="card-img-top" height="55px" width="45px">
+        <div class="card-body">
+          <h5 class="card-title">Off-Campus Program</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, dignissimos voluptate rerum nam error dolor?</p>
+          <a href="#" class="btn btn-primary ">6 Courses</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;  margin-inline: 10 px;">
+        <img src="./assest/category-4.svg" class="card-img-top" height="55px" width="45px">
+        <div class="card-body">
+          <h5 class="card-title">Hybrid-Distance Program</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, dignissimos voluptate rerum nam error dolor?
+          </p>
+          <a href="#" class="btn btn-primary ">5 Courses</a>
+        </div>
+      </div>
+    </div>
+    <section class="section d-flex mt-5  bg-warning text-">
+        <div class="container-fluid">
+            <a href="#" style="height: 5px;">
+                <img
+                src="./assest/girl.jpg"/>
+            </a>
+    
+          </div>
+          
+    <div class="container-fluid pt-1 ps-1 mt-2">
+       <h4 style="color: blueviolet;"><u> ABOUT US</u> </h4>
+<p>Over 10 Years in Distant learning for Skill Development
+Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore magna aliquaenim ad minim.</p>
+      <ul> 
+        <li>Expert Trainers</li>
+        <li>Online Remote Learning</li>
+        <li>Lifetime Access</li> 
+      </ul>
+      
+      <P><h5 style="color: blueviolet;"><u>QUALITY OF EDUCATUION</u></h5>
+        Every child has the fundamental right to quality education – one that helps them acquire basic literacy and numeracy, enjoy learning without fear, and feel valued and included, irrespective of where they come from.
+        Children at desks doing school work</P>
+      </div>
+    </section>
+    <section class="bg-info">
+     <P class="text-center  mb-2 p-3 text-danger">POPULAR COURSES</P>
+      <h4 class="text-center  mb-4 "> Pick A Course To Get Started</h4>
+      <div class=" row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://sangalotech.com/html/13/assets/images/course-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title bg-secondary d-inline-block text-primary">Beginner</h5>
+              <p class="card-text">Build Responsive Real- World Websites with HTML and CSS</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://sangalotech.com/html/13/assets/images/course-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title bg-success d-inline-block text-info ">Advanced</h5>
+              <p class="card-text">Java Programming Masterclass for Software Developers</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 49 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://sangalotech.com/html/13/assets/images/course-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title bg-primary d-lg-inline-block text-danger">Intermediate</h5>
+              <p class="card-text">The Complete Camtasia Course for Content Creators</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 34 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="align-content-center">
+      
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">lorem4</span>
+      </div>
+      <div class="spinner-border text-secondary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-border text-danger" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-border text-warning" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-border text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-border text-light" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-border text-dark" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-secondary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-danger" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-warning" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-light" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-grow text-dark" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      
+    </section>
+    
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
